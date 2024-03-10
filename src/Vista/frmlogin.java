@@ -4,11 +4,12 @@
  */
 package Vista;
 
-import Modelo.*;
-import java.awt.Toolkit;
+import Controlador.Pensionado;
+import Modelo.ConexionMySQL;
+
+import javax.swing.*;
+import java.awt.*;
 import java.sql.Connection;
-import controlador.*;
-import javax.swing.JOptionPane;
 
 
 /**

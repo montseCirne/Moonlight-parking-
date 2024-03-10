@@ -17,7 +17,7 @@ public class ConexionMySQL{
     public Connection conectar(){
         try{
             Class.forName("com.mysql.jdbc.Driver");
-            cn = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/proyectoPrueba","root",""); //Cambiar al nombre de su base de datos
+            cn = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/parking","root",""); //Cambiar al nombre de su base de datos
             System.out.println("Conexion establecida de manera correcta.");
         } catch(Exception e){
             System.out.println("Error en la conexion " + e);

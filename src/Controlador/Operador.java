@@ -1,9 +1,10 @@
-package controlador;
+package Controlador;
 
-import Modelo.*;
+import Modelo.ConexionMySQL;
 import com.mysql.jdbc.PreparedStatement;
-import java.sql.SQLException;
+
 import java.sql.ResultSet;
+import java.sql.SQLException;
 
 
 public class Operador {

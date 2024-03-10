@@ -1,15 +1,16 @@
 package Controlador;
 
-import java.sql.SQLException;
-import com.mysql.jdbc.PreparedStatement;
-import java.util.Random;
 import Modelo.ConexionMySQL;
+import com.mysql.jdbc.PreparedStatement;
+
 import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.time.LocalDate;
+import java.util.Random;
 
 public class Suscripcion {
     
-    private static ConexionMySQL conexion;
+    protected static ConexionMySQL conexion;
     private int folio;
     
     public Suscripcion(){

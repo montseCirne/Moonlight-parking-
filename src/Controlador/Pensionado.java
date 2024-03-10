@@ -1,4 +1,4 @@
-package controlador;
+package Controlador;
 import Modelo.*;
 import com.mysql.jdbc.PreparedStatement;
 import java.sql.SQLException;
