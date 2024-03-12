@@ -5,6 +5,7 @@ import com.mysql.jdbc.PreparedStatement;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import javax.swing.table.DefaultTableModel;
 
 
 public class Operador {
@@ -36,5 +37,9 @@ public boolean autentica(String usuario, String contra){
     
     return autenticado;
 }
+
+    public DefaultTableModel obtenerTarifas() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 
 }
